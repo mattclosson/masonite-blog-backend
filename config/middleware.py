@@ -35,7 +35,7 @@ ROUTE_MIDDLEWARE = {
     "verified": VerifyEmailMiddleware,
     "guard": GuardMiddleware,
 }
-## ADD THIS
+
 CORS = {
     'Access-Control-Allow-Origin': "*",
     "Access-Control-Allow-Methods": "*",
